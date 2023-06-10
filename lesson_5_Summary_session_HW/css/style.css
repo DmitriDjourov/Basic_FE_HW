@@ -10,8 +10,7 @@ h2 {
 .zagolovki_1 {
     
     margin-left: 100px; 
-    font-size:xx-large; 
-    
+    font-size:xx-large;     
 }
 .sposok_valut_1 {
     margin-left: 20px;
@@ -19,11 +18,11 @@ h2 {
 }
 
  tr, td , th{
-    border: 3px solid black;
+    border: 3px solid #000000;
 }
 
 table {
-     border: 2px solid black;
+     border: 2px solid #000000;
 }
 
 tbody tr td img {
@@ -49,3 +48,20 @@ tbody tr td img {
     margin-right: 600px;
     display: block;
    }
+
+/* link — определяет цвет ссылок на веб-странице (цвет по умолчанию синий, #0000FF).
+alink — цвет активной ссылки. Цвет ссылки меняется при нажатии на ней кнопки мыши. Цвет по умолчанию красный, #FF0000.
+vlink — цвет уже посещенных ссылок. Цвет по умолчанию фиолетовый, #800080. 
+visited — Стиль для посещенной ссылки.
+active — Стиль для активной ссылки. Активной ссылка становится при нажатии на нее.
+hover — Стиль для ссылки при наведении на нее мышью. */
+
+   a {
+        text-decoration: none;
+        color: #000000;   
+    }
+    a:hover {
+        color: #a742f5;
+    }
+
+
