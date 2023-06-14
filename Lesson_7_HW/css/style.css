@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+}
+
+.post_1 {
+    padding: 70px;
+    background-color: 	#f5f5f5;}
+
+form {
+    width: 420px;
+    height: 426px;
+    top: -213px;
+    left: -751px;
+    border-radius: 20px;
+    padding: 16px 32px 32px 32px;
+    /************/
+    display: flex;
+    flex-direction: column;
+    border: 1px solid silver;   
+    background-color: white;
+}
+/* Close */
+.ic-close{
+    display:flex ;
+    flex-direction: row-reverse;
+    width: 372px;
+    height: 24px;        
+    /* position: absolute; */
+}
+
+/* .close{
+    display:flex ;
+    flex-direction: row-reverse;     */
+    /* width: 388px;
+    height: 24px; */ 
+/* } */
+
+img {
+    /* Close */
+    position: inherit;
+    left: 20.83%;
+    right: 20.83%;
+    top: 20.83%;
+    bottom: 20.83%;
+}
+
+h1 {
+    /* Регистрация */
+width: 356px;
+height: 32px;
+/* Header : H1/ExtraBold */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 32px;
+/* identical to box height, or 114% */
+display: flex;
+align-items: center;
+}
+
+.init_tab{
+/* Forms */
+/* Auto layout */
+margin-top: 15px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+width: 356px;
+height: 104px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#email{
+    transition:  box-shadow 2s, padding 5s;
+    /* Forms / Input / Text (Focus) */
+box-sizing: border-box;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 7px 16px;
+width: 356px;
+height: 48px;
+/* Text/White FFFFFF */
+background: #FFFFFF;
+/* Primary/Main Color FFE44D */
+border: 1px solid #FFE44D;
+border-radius: 12px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#password{
+/* Forms / Input / Text (Placeholder) */
+box-sizing: border-box;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 14px 16px;
+gap: 10px;
+width: 356px;
+height: 48px;
+/* Text/White FFFFFF */
+background: #FFFFFF;
+/* Text/Outline CFD8DC */
+border: 1px solid #CFD8DC;
+border-radius: 12px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+p{
+width: 356px;
+height: 42px;
+/* Body : S1/Regular */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* or 117% */
+/* Text/Secondary Text */
+color: #7B8E98;
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.buttons{
+    /* Buttons */
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+width: 356px;
+height: 104px;
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+margin-top: 20px;
+}
+
+.bsend{
+    /* Buttons */
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 24px;
+width: 356px;
+height: 48px;
+/* Primary/Main Color FFE44D*/
+background: #FFE44D;
+border-radius: 55px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+/* ?*****? */
+}
+
+.psend{
+    /* Button Label */
+width: 161px;
+height: 20px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+/* Text/Main Text */
+color: #1A1A1A;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.benter{
+    /* Buttons */
+box-sizing: border-box;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 24px;
+gap: 10px;
+width: 356px;
+height: 48px;
+/* Text/Outline CFD8DC */
+border: 1px solid #CFD8DC;
+border-radius: 87px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.penter{
+    /* Button Label */
+width: 48px;
+height: 20px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+/* Text/Main Text */
+color: #1A1A1A;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson_7_HW</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="post_1">
+<!-- на серваке -->
+<!-- <form method="post"> -->
+<!-- на клиенте -->
+    <form method="get">  
+         <!-- Close        -->
+    <div class="ic-close">   
+       <a onclick="close();"><img src="./media/Icons/ic-close.png"></a>   
+    </div>    
+    <div class="staff">
+        <H1>Регистрация</H1>
+        <!-- <br> -->
+        <div class="init_tab">
+        <!-- <label for="firstname_input">User firstname</label> -->
+        <input type="text" name="email" placeholder="alexander@mail.com" id="email">
+ 
+        <!-- <label for="lastname_input">User lastname</label> -->
+        <input type="text" name="password" placeholder="Пароль" id="password">
+        </div>
+    </div>
+    <br>
+     <p>Регистрируясь на сайте, вы соглашаетесь с нашими Правилами и Политикой конфиденциальности и соглашаетесь на информационную рассылку.</p>
+       <!-- /* Buttons */ -->
+     <div class="buttons">
+        <button class="bsend"><p class="psend">Зарегестрироваться</p></button>
+        <button class="benter"><p class="penter">Войти</p></button>
+     </div>
+    </form>
+  </div>
+</body>            
+ 
+</html>
