@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 100px;
+}
+.container {
+    border: none;
+    position: relative;
+}
+
+.container .inner {
+    width: 200px;
+    height: 200px;  
+    position: absolute;    
+}
+
+.inner:first-child {
+    top: 0;
+    left: 0;
+    z-index: 20;
+    background-color: red;
+}
+
+.inner:nth-child(2) {
+    top: 50px;
+    left: 50px;
+    z-index: 50;
+    background-color: green;
+}
+
+.inner:last-child {
+    top: 100px;
+    left: 100px;
+    background-color: blue;
+}
+
+.container .inner:nth-child(2):hover {
+    width: 300px;
+    height: 300px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+    transform: rotate(-45deg);  
+    /* transition: all 5s 1s cubic-bezier(1,-0.87, 0, 2.4); */
+
+}
