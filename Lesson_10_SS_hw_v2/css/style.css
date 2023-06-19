@@ -18,7 +18,6 @@ body {
 }
 
 .modal_wrapper_title {
-    position: absolute;
     height: 74px;
     width: 867px;
     margin: 86px 196px 9px 197px;
@@ -37,24 +36,16 @@ body {
     color: #00548E;
 }
 
-
-.para_column_position_1 {
-    position: absolute;
-    width: 500px;
-    height: 96px;
-    left: 100px;
-    top: 169px;
-}
-
-.para_column_position_2 {
-    position: absolute;
-    width: 500px;
-    height: 96px;
-    left: 660px;
-    top: 169px;
+.d_para_column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 9px 100px 74px 100px;
 }
 
 .para_column_text {
+    height: 96px;
+    width: 500px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -63,166 +54,87 @@ body {
     color: #000000;
 }
 
-/* 1 */
-.paragraf_img_1_position {
-    box-sizing: border-box;
-    position: absolute;
-    width: 86px;
-    height: 86px;
-    left: 160px;
-    top: 339px;
+.paragraf_body {
+    padding-left: 160px;
+    padding-right: 100px;
 }
 
-.in_paragraf_1_text_position_1 {
-    position: absolute;
-    width: 500px;
+.in_paragraf_items_position {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 69px;
+}
+
+.margin_spisok_block {
+    margin-top: 90px;
+}
+
+.in_paragraf_text_position {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px
+}
+
+.in_paragraf_text_title {
     height: 42px;
     left: 276px;
     top: 339px;
-}
 
-.in_paragraf_text_title_1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
     line-height: 140%;
+
     color: #00548E;
-    
 }
 
-.in_paragraf_1_text_position_2 {
-    position: absolute;
+.in_paragraf_text_text {
     width: 884px;
-    height: 72px;
+    height: 30px;
     left: 276px;
     top: 391px;
-}
 
-.in_paragraf_1_text_text_2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+
     color: #696B7A;
 }
 
-/* 2 */
-.paragraf_img_2_position {
-    box-sizing: border-box;
-    position: absolute;
-    width: 86px;
-    height: 86px;
-    left: 161px;
-    top: 532px;
-}
-
-.in_paragraf_2_text_position_1 {
-    position: absolute;
-    width: 620px;
-    height: 36px;
-    left: 276px;
-    top: 532px;
-}
-
-.in_paragraf_text_title_2 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 120%;
-    color: #00548E;
-}
-
-
-.in_paragraf_2_text_position_2 {
-    position: absolute;
-    width: 884px;
-    height: 144px;
-    left: 276px;
-    top: 579px;
-}
-
-.in_paragraf_2_text_text_2 {
+.tri_spiska {
+    display: flex;
+    flex-direction: row;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 180%;
     color: #696B7A;
+
 }
 
-/* 3 */
-.paragraf_img_3_position {
-    box-sizing: border-box;
-    position: absolute;
-    width: 86px;
-    height: 86px;
-    left: 161px;
-    top: 813px;
-}
-
-.in_paragraf_3_text_position_1 {
-    position: absolute;
-    width: 500px;
-    height: 36px;
-    left: 276px;
-    top: 813px;
-}
-
-.in_paragraf_text_title_3 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 120%;
-    color: #00548E;
-}
-
-.in_paragraf_3_text_position_2 {
-    position: absolute;
-    width: 800px;
-    height: 22px;
-    left: 276px;
-    top: 859px;
-}
-
-.in_paragraf_3_text_text_2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 22px;
-    color: #696B7A;
-}
-
-/* spiski */
-.spisok1_position {
+.spisok1 {
     position: absolute;
     width: 107px;
     height: 87px;
     left: 306px;
-    top: 891px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #696B7A;
+
 }
 
-.spisok2_position {
+.spisok2 {
     position: absolute;
     width: 158px;
     height: 87px;
     left: 448px;
-    top: 891px;
-}
-
-.spisok3_position {
-    position: absolute;
-    width: 239px;
-    height: 87px;
-    left: 632px;
-    top: 891px;
-}
-
-.spiski_text {    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -231,9 +143,25 @@ body {
     color: #696B7A;
 }
 
+
+.spisok3 {
+    position: absolute;
+    width: 239px;
+    height: 87px;
+    left: 632px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+
+    color: #696B7A;
+}
+
 li:before {
-    content: "• " 
-  }
+    content: "• ";
+}
+
 li {
     list-style: none;
-  }
+}
