@@ -53,6 +53,11 @@ const user = {
     salary: 500
     }
 
+    console.log(`------------------- var 1 из массива ----------------------------`); 
     console.log(`User’s name is ${user.first_name} ${user.last_name}He is ${user.age} years old`);
+    
+    console.log(`----------------var 2 desctructurization ------------------------`);
+    const  {first_name,last_name,age} = user;
+    console.log(`User’s name is ${first_name} ${last_name}He is ${age} years old`);
     
     console.log(`-------------------------------------------------------`);    
