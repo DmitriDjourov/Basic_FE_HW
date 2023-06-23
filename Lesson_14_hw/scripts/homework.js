@@ -38,7 +38,8 @@ let last_element= 0;
 
 if  (i = numbers_squared.length-1){
         last_element = numbers_squared[i];
-        console.log(numbers_squared[i]);
+     // console.log(numbers_squared[i]);
+        console.log(last_element);
 }
 console.log(`-------------------------------------------------------`); 
 // ======================================================================================
