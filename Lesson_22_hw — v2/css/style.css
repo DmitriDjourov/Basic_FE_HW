@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0 20px;
+}
+.div_red_square {
+    display: flex;
+}
+
+.div_red_square .red_square {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: blue;
+    border: 1px solid black;
+    margin: 5px;
+    font-size: 24px;
+}
+
+.red_square .active {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: azure;
+}
+
+.div_red_square_button {
+    display: flex;
+}
+
+.div_red_square_button .red_square_button {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+    margin: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* =============pink============ */
+.div_pink_square {
+    display: flex;
+}
+
+.div_pink_square .pink_square {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    color: blue;
+    border: 1px solid black;
+    margin: 5px;
+    font-size: 24px;
+}
+
+.div_pink_square_button {
+    display: flex;
+}
+
+.div_pink_square_button .pink_square_button {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+    margin: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 24px;
+}
+/* ==============white======================= */
+.div_white_square {
+    display: flex;
+}
+
+.div_white_square .white_square {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+    margin: 30px;
+    font-size: 24px;
+}
+
+.div_white_square_button {
+    display: flex;
+}
+
+.div_white_square_button .white_square_button {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+    margin: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* =================blue================== */
+.div_blue_p {
+    display: flex;
+}
+
+.div_blue_p .root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 30px;
+    font-size: 24px;
+}
+
+.div_blue_p_button {
+    display: flex;
+}
+
+.div_blue_p_button .blue_p_button {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+    margin: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* =================blue==green================ */
+.div_blue_green_p {
+    display: flex;
+}
+
+.div_blue_green_p .root2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 30px;
+    font-size: 24px;
+}
+
+.div_blue_green_p_button {
+    display: flex;
+}
+
+.div_blue_green_p_button .blue_green_p_button {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+    margin: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* ================================= */
+
