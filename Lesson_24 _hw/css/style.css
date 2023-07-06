@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form_container {
+    padding: 140px 240px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.form_container #id_form {
+    display: flex;
+    flex-direction: column;
+    background-color: #34495E;
+    padding: 77px 150px 88px;
+    border-radius: 20px;
+}
+
+.form_container #id_form .person_first_name {
+    margin-bottom: 36px;
+}
+
+.form_container #id_form .person_last_name {
+    margin-bottom: 36px;
+}
+
+.form_container #id_form .person_age {
+    margin-bottom: 122px;
+}
+
+.form_container #id_form button {
+    padding: 10px;
+    font-size: 25px;
+    background-color: #27AE60;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form_container #id_form input {
+    padding: 10px;
+    padding-left: 35px;
+    color: black;
+    background-color: #D9D9D9;
+    border: none;
+    font-size: 25px;
+}
+
+.form_container #id_form input::placeholder {
+    color: black;
+}
+
+.user_container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+.user_container .user-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #34495E;
+    padding: 30px 60px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.user_container .user-item p {
+    color: white;
+    font-size: 25px;
+}
+
+h1 {
+    text-align: center;
+}
