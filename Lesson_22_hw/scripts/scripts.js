@@ -130,24 +130,28 @@ buttonElem5.style.backgroundColor = "gray"
 buttonElem5.style.cursor = "pointer"
 document.body.append(buttonElem5)
 
-buttonElem5.addEventListener("mousedown",function ()
-{
+const paragraf = []
+buttonElem5.addEventListener("mousedown",function (event)
+{event.preventDefault()
+    const paramObject = {
+        pText: "...би-би-л@ть......"}
+        paragraf.push(paramObject)
+        console.log(paramObject)
+if (paragraf.length%2 === 0) {
 const pElem5 = document.createElement("p") // <p></p>
 pElem5.innerText = "Какой-то текст 2"
 pElem5.style.display = "flex" 
 pElem5.style.margin = "5px"
 pElem5.style.fontSize = "24px"
-pElem5.style.color = "blue"
-document.body.append(pElem5) 
-})
-
-buttonElem5.addEventListener("mousedown",function ()
-{
+pElem5.style.color = "green"
+document.body.append(pElem5)
+return   
+}
 const pElem6 = document.createElement("p") // <p></p>
 pElem6.innerText = "Какой-то текст 2"
 pElem6.style.display = "flex" 
 pElem6.style.margin = "5px"
 pElem6.style.fontSize = "24px"
-pElem6.style.color = "green"
-document.body.append(pElem6)    
+pElem6.style.color = "blue"
+document.body.append(pElem6)  
 })
