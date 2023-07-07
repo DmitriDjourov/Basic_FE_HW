@@ -62,25 +62,28 @@ divRootElem.append(pElem)
 
 const divRoot2Elem = document.querySelector(".root2")
 const blueGreenPButton = document.querySelector(".blue_green_p_button")
-
-blueGreenPButton.addEventListener("mousedown",function ()
-{
-const pElem5 = document.createElement("p") 
-pElem5.innerText = "...би-би-л@ть......"
-pElem5.style.display = "flex" 
-pElem5.style.margin = "5px"
-pElem5.style.fontSize = "24px"
-pElem5.style.color = "blue"
-divRoot2Elem.append(pElem5) 
-})
-
-blueGreenPButton.addEventListener("mousedown",function ()
-{
-const pElem6 = document.createElement("p") 
-pElem6.innerText = "...би-би-л@ть..... :)"
-pElem6.style.display = "flex" 
-pElem6.style.margin = "5px"
-pElem6.style.fontSize = "24px"
-pElem6.style.color = "green"
-divRoot2Elem.append(pElem6)    
+const paragraf = []
+blueGreenPButton.addEventListener("mousedown",function (event)
+{event.preventDefault()
+const paramObject = {
+    pText: "...би-би-л@ть......"}
+    paragraf.push(paramObject)
+    console.log(paramObject)
+    if (paragraf.length%2 === 0) {
+        const pElem5 = document.createElement("p") 
+        pElem5.innerText = "...би-би-л@ть......"
+        pElem5.style.display = "flex" 
+        pElem5.style.margin = "5px"
+        pElem5.style.fontSize = "24px"
+        pElem5.style.color = "green"
+        divRoot2Elem.append(pElem5)
+        return
+    }
+        const pElem6 = document.createElement("p") 
+        pElem6.innerText = "...би-би-л@ть..... :)"
+        pElem6.style.display = "flex" 
+        pElem6.style.margin = "5px"
+        pElem6.style.fontSize = "24px"
+        pElem6.style.color = "blue"
+        divRoot2Elem.append(pElem6)     
 })
